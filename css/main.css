@@ -223,14 +223,14 @@ img {
 .hero__content {
   position: absolute;
   top: 0;
-  max-width: 444px;
+  max-width: 480px;
   margin-top: 117px;
 }
 
 .hero__title {
   color: #FEFCF7;
   font-family: Fraunces;
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 900;
   line-height: 72px;
   margin-bottom: 32px;
