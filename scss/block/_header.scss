@@ -1,0 +1,50 @@
+// header
+
+.header {
+    padding-block: 44px 57px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo_block {
+    max-width: 235px;
+}
+
+.header__list {
+    display: flex;
+}
+.header__item:not(:first-child) {
+    margin-left: 33px;
+}
+.header__link {
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    text-transform: uppercase;
+    &:hover {
+        color: #333D4B;
+    }
+}
+.header__btn_main {
+    width: 16px;
+    height: 15px;
+    background-color: transparent;
+    background-image: url(../../img/burger.svg);
+    display: none;
+}
+// responsive 
+
+@media screen and (max-width: 670px) {
+    .header__list {
+        display: none;
+    }
+    .header__btn_main {
+        display: block;
+    }
+}
